@@ -272,20 +272,20 @@ $(document).ready(function(){
     }
 
 	// Draw Charts
-	drawBarChart('chart1', '1_1', true);
-	drawBarChart('chart2', '5_2', false);
-	drawBarChart('chart3', '5_3', false);
-	drawBarChart('chart4', '6_1', true);
-	drawBarChart('chart5', '6_2', true);
-	drawBarChart('chart6', '6_3', false);
-	drawBarChart('chart6-1', '1_1', true);
-	drawBarChart('chart6-2', '5_2', false);
-	drawBarChart('chart7', '5_3', false);
-	drawBarChart('chart8', '6_1', true);
-	drawBarChart('chart9', '6_2', true);
-	drawBarChart('chart10', '6_3', false);
-	drawBarChart('chart11', '1_1', true);
-	drawBarChart('chart12', '5_2', false);
-	drawBarChart('chart13', '5_3', false);
-	drawBarChart('chart14', '6_1', true);
+	drawBarChart('chart1', '1', true);
+	drawBarChart('chart2', '2', false);
+	drawBarChart('chart3', '3', false);
+	drawBarChart('chart4', '4', true);
+	drawBarChart('chart5', '5', true);
+	drawBarChart('chart6', '6', false);
+	drawBarChart('chart6-1', '6_1', true);
+	drawBarChart('chart6-2', '6_2', false);
+	drawBarChart('chart7', '7', false);
+	drawBarChart('chart8', '8', true);
+	drawBarChart('chart9', '9', true);
+	drawBarChart('chart10', '10', false);
+	drawBarChart('chart11', '11', true);
+	drawBarChart('chart12', '12', false);
+	drawBarChart('chart13', '13', false);
+	drawBarChart('chart14', '14', true);
 })
