@@ -99,7 +99,7 @@ function getData() {return {
       }
     },
     "11": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 1,
         "Nivel te larte": 3,
         "Nivel mesatar": 12,
@@ -122,7 +122,7 @@ function getData() {return {
       }
     },
     "12": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 2,
         "Nivel te larte": 3,
         "Nivel mesatar": 11,
@@ -145,7 +145,7 @@ function getData() {return {
       }
     },
     "13": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 0,
         "Nivel te larte": 4,
         "Nivel mesatar": 13,
@@ -168,7 +168,7 @@ function getData() {return {
       }
     },
     "14": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 0,
         "Nivel te larte": 6,
         "Nivel mesatar": 4,
@@ -218,7 +218,7 @@ function getData() {return {
       }
     },
     "18": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 0,
         "Nivel te larte": 1,
         "Nivel mesatar": 3,
@@ -241,7 +241,7 @@ function getData() {return {
       }
     },
     "19": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 0,
         "Nivel te larte": 3,
         "Nivel mesatar": 4,
@@ -272,7 +272,7 @@ function getData() {return {
       }
     },
     "19": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 0,
         "Nivel te larte": 0,
         "Nivel mesatar": 7,
@@ -295,7 +295,7 @@ function getData() {return {
       }
     },
     "21": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 0,
         "Nivel te larte": 2,
         "Nivel mesatar": 4,
@@ -318,7 +318,7 @@ function getData() {return {
       }
     },
     "22": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 0,
         "Nivel te larte": 0,
         "Nivel mesatar": 7,
@@ -341,7 +341,7 @@ function getData() {return {
       }
     },
     "23": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 0,
         "Nivel te larte": 0,
         "Nivel mesatar": 6,
@@ -364,7 +364,7 @@ function getData() {return {
       }
     },
     "24": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 0,
         "Nivel te larte": 1,
         "Nivel mesatar": 5,
@@ -387,7 +387,7 @@ function getData() {return {
       }
     },
     "25": {
-      "Egzekutivi": {
+      "Ekzekutivi": {
         "Nivel shume i larte": 0,
         "Nivel te larte": 0,
         "Nivel mesatar": 5,
