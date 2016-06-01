@@ -9,7 +9,7 @@ function drawLineChart(div, tab){
 	var background = allData['meta']['bg_color'][tab];
 	var rounding = allData['meta']['rounding'][tab];
 	var legend = false;
-	
+
 	// Get Suffixes and Prefixes
 	var prefix = allData['meta']['prefix'][tab];
 	var suffix = allData['meta']['suffix'][tab];
@@ -19,12 +19,12 @@ function drawLineChart(div, tab){
 	if (suffix == '_'){
 		suffix = '';
 	}
-	
+
 	// Get values for charts
 	var data = [];
 	var lineColors = [];
 	var i = 1;
-	
+
 	for (keyOne in allData[tab]){
 		var entry = {};
 		var values = [];
@@ -33,7 +33,7 @@ function drawLineChart(div, tab){
 		var indices = allData[tab][keyOne];
 		var xAxis = [];
 		colName = colName.concat(i);
-		
+
 		// Ensure keys are sorted correctly
 	    var keys = [];
 	    var k, j, len;
@@ -43,31 +43,31 @@ function drawLineChart(div, tab){
 				keys.push(k);
 	    	}
 		}
-			
+
 		keys.sort();
 		len = keys.length;
-		
+
 		// Cycle through keys in order
 		for (j = 0; j < len; j++) {
 		  	k = keys[j];
-			value = Number(Number(indices[k]).toFixed(rounding));	
+			value = Number(Number(indices[k]).toFixed(rounding));
 			values.push(value);
 			xAxis.push(k);
 		}
-		
+
 		// Get meta data
 		entry['name'] = seriesName;
 		entry['data'] = values;
 		entry['color'] = allData['meta'][colName][tab];
 		data.push(entry);
-		
+
 		// Check if Legend is needed (i.e. there is more than 1 series)
 		if (i > 1){
 			legend = true;
 		}
 		i = i + 1;
 	}
-	
+
 	$('#' + div).highcharts({
 		title: {
 			text: chartTitle, // Chart text from meta data
@@ -125,7 +125,7 @@ function drawBarChart(div, tab, stacked){
 	var background = allData['meta']['bg_color'][tab];
 	var rounding = allData['meta']['rounding'][tab];
 	var legend = false;
-	
+
 	// Get Suffixes and Prefixes
 	var prefix = allData['meta']['prefix'][tab];
 	var suffix = allData['meta']['suffix'][tab];
@@ -135,18 +135,18 @@ function drawBarChart(div, tab, stacked){
 	if (suffix == '_'){
 		suffix = '';
 	}
-	
+
 	// Determine if columns are stacked
 	var chartType = null;
-	if (stacked) { 
+	if (stacked) {
 		chartType = 'normal';
 	}
-	
+
 	// Get values for charts
 	var data = [];
 	var lineColors = [];
 	var i = 1;
-	
+
 	for (keyOne in allData[tab]){
 		var entry = {};
 		var values = [];
@@ -155,7 +155,7 @@ function drawBarChart(div, tab, stacked){
 		var indices = allData[tab][keyOne];
 		var xAxis = [];
 		colName = colName.concat(i);
-		
+
 		// Ensure keys are sorted correctly
 	    var keys = [];
 	    var k, j, len;
@@ -165,23 +165,23 @@ function drawBarChart(div, tab, stacked){
 				keys.push(k);
 	    	}
 		}
-			
+
 		keys.sort();
 		len = keys.length;
-		
+
 		// Cycle through keys in order
 		for (j = 0; j < len; j++) {
 		  	k = keys[j];
-			value = Number(Number(indices[k]).toFixed(rounding));	
+			value = Number(Number(indices[k]).toFixed(rounding));
 			values.push(value);
 			xAxis.push(k);
 		}
-		
+
 		entry['name'] = seriesName;
 		entry['data'] = values;
 		entry['color'] = allData['meta'][colName][tab];
 		data.push(entry);
-		
+
 		// Check if Legend is needed (i.e. there is more than 1 series)
 		if (i > 1){
 			legend = true;
@@ -278,9 +278,10 @@ $(document).ready(function(){
 		$("#chart-div8-1").append("<div id='chart8-1' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
 		$("#chart-div8-2").append("<div id='chart8-2' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
     }
-	
+
 	// Draw Charts
-	drawLineChart('chart1-1', '1_1');
+//	drawLineChart('chart1-1', '1_1');
+	drawBarChart('chart1-1', '1_1', true);
 	drawLineChart('chart1-2', '1_2');
 	drawLineChart('chart1-3', '1_3');
 	drawLineChart('chart2-1', '2_1');
