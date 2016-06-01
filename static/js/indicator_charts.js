@@ -284,8 +284,8 @@ $(document).ready(function(){
 	drawBarChart('chart8', '8', true);
 	drawBarChart('chart9', '9', true);
 	drawBarChart('chart10', '10', false);
-	drawBarChart('chart11', '11', true);
+	drawBarChart('chart11', '11', false);
 	drawBarChart('chart12', '12', false);
 	drawBarChart('chart13', '13', false);
-	drawBarChart('chart14', '14', true);
+	drawBarChart('chart14', '14', false);
 })
