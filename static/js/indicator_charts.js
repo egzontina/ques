@@ -296,12 +296,12 @@ $(document).ready(function(){
 	drawBarChart('chart12', '12', false);
 	drawBarChart('chart13', '13', false);
 	drawBarChart('chart14', '14', false);
-	drawBarChart('chart15', '15', true);
-	drawBarChart('chart16', '16', true);
-	drawBarChart('chart17', '17', true);
-	drawBarChart('chart18', '18', true);
-	drawBarChart('chart19', '19', true);
-	drawBarChart('chart20', '20', true);
-	drawBarChart('chart21', '21', true);
-	drawBarChart('chart22', '22', true);
+	drawBarChart('chart15', '15', false);
+	drawBarChart('chart16', '16', false);
+	drawBarChart('chart17', '17', false);
+	drawBarChart('chart18', '18', false);
+	drawBarChart('chart19', '19', false);
+	drawBarChart('chart20', '20', false);
+	drawBarChart('chart21', '21', false);
+	drawBarChart('chart22', '22', false);
 })
