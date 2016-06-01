@@ -269,6 +269,14 @@ $(document).ready(function(){
 		$("#chart-div-12").append("<div id='chart12' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
 		$("#chart-div-13").append("<div id='chart13' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
 		$("#chart-div-14").append("<div id='chart14' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-15").append("<div id='chart15' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-16").append("<div id='chart16' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-17").append("<div id='chart17' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-18").append("<div id='chart18' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-19").append("<div id='chart19' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-20").append("<div id='chart20' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-21").append("<div id='chart21' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-12").append("<div id='chart22' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
     }
 
 	// Draw Charts
@@ -288,4 +296,12 @@ $(document).ready(function(){
 	drawBarChart('chart12', '12', false);
 	drawBarChart('chart13', '13', false);
 	drawBarChart('chart14', '14', false);
+	drawBarChart('chart15', '5', true);
+	drawBarChart('chart16', '6', true);
+	drawBarChart('chart17', '7', true);
+	drawBarChart('chart18', '8', true);
+	drawBarChart('chart19', '9', true);
+	drawBarChart('chart20', '10', true);
+	drawBarChart('chart21', '11', true);
+	drawBarChart('chart22', '12', true);
 })
