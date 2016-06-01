@@ -453,7 +453,7 @@ function getData() {return {
             "11": "Deri ne cfare mase institucionet e Kosoves jane transparent dhe te hapur?",
             "12": "Deri ne cfare mase institucionet e Kosoves jane te pergjegjshem per veprimet e tyre?",
             "13": "Deri ne cfare mase institucionet e Kosoves jane efikase ne punen e tyre?",
-            "14": "Kur kerkoni informacione nga institucionet shteterore, sa te shpejte jane ata ne pergjigjjet e tyre?"
+            "14": "Kur kerkoni informacione nga institucionet shteterore, sa te shpejte jane ata ne pergjigjjet e tyre?",
             "15": "Deri ne cfare mase shteti siguron kushte te favorshme per nje rrol efektiv te mediave?",
             "16": "A keni njohuri se si kane ndryshuar dispozitat ligjore, rregulloret apo politikat ne funksionimin e mediave ne Kosove? Nese po, si do ti vleresoni ato ndryshime.",
             "17": "Deri ne cfare mase autoritetet publike jane duke vendosur bashkpunimin konstruktiv me mediat?(Niveli i komunikimit, qasje e barabarte ne informacione etj)",
