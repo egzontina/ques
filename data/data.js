@@ -533,7 +533,7 @@ function getData() {return {
             "13": NaN,
             "14": NaN,
             "15":  NaN,
-            "16":  NaN
+            "16":  NaN,
             "17":  NaN,
             "18":  NaN,
             "19":  NaN,
